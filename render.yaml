@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: multistress
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
